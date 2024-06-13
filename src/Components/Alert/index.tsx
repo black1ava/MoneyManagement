@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {View, TouchableWithoutFeedback, ViewStyle} from 'react-native';
+import {View, TouchableWithoutFeedback, ViewStyle, Text} from 'react-native';
 import {BlurView} from '@react-native-community/blur';
 import Modal from 'react-native-modal';
 import Animated, {
@@ -8,18 +8,36 @@ import Animated, {
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
+import {useTranslation} from 'react-i18next';
 
 import {styles} from './style';
-import {AlertPropsType} from '../../types/Alert';
+import {AlertActionType, AlertPropsType} from '../../types/Alert';
+import AlertAction from '../AlertAction';
+import {useAlertBackdrop} from '../../Hook/useAlertBackdrop';
 
 const Alert: React.FC<AlertPropsType> = props => {
-  const [showBackdrop, setShowBackdrop] = useState<boolean>(false);
+  const {visible, onSetVisible} = useAlertBackdrop();
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>();
   const backdropOpacity = useSharedValue<number>(0);
+  const {t} = useTranslation();
+
+  const button: () => React.ReactElement | null = () => {
+    if (!props.data?.actions) {
+      const data: AlertActionType = {
+        title: t('Okay'),
+        onPress: props.onClose,
+        variant: 'primary',
+      };
+
+      return <AlertAction data={data} />;
+    }
+
+    return null;
+  };
 
   useEffect(() => {
     if (props.isVisible) {
-      setShowBackdrop(true);
+      onSetVisible(true);
       backdropOpacity.value = withTiming(1, {
         duration: 300,
         easing: Easing.linear,
@@ -33,7 +51,7 @@ const Alert: React.FC<AlertPropsType> = props => {
     });
 
     timeoutRef.current = setTimeout(() => {
-      setShowBackdrop(false);
+      onSetVisible(false);
     }, 300);
   }, [props.isVisible]);
 
@@ -43,7 +61,7 @@ const Alert: React.FC<AlertPropsType> = props => {
 
   return (
     <React.Fragment>
-      {showBackdrop && (
+      {visible && (
         <Animated.View style={[styles.backdrop, backdropStyle]}>
           <BlurView
             blurType="dark"
@@ -65,7 +83,15 @@ const Alert: React.FC<AlertPropsType> = props => {
           <TouchableWithoutFeedback onPress={props.onClose}>
             <View style={styles.backdrop} />
           </TouchableWithoutFeedback>
-          <View style={styles.modalContainer}></View>
+          <View style={styles.modalContainer}>
+            {props.data?.title && (
+              <Text style={styles.title}>{props.data.title}</Text>
+            )}
+            {props.data?.description && (
+              <Text style={styles.description}>{props.data.description}</Text>
+            )}
+            {button()}
+          </View>
         </View>
       </Modal>
     </React.Fragment>

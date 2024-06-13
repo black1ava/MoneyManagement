@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-import {PhoneHookReturnType} from '../types/PhoneHookReturnType';
+import {PhoneHookReturnType} from '../../types/PhoneHookReturnType';
 
 export const usePhone: () => PhoneHookReturnType = () => {
   const [phone, setPhone] = useState<string>('');

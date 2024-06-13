@@ -9,7 +9,6 @@ import {useLogin} from '../../Context/Login';
 
 const Login: React.FC = () => {
   const {t} = useTranslation();
-  const alert = useAlert();
   const login = useLogin();
 
   return (

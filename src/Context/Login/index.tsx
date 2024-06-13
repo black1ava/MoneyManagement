@@ -1,4 +1,5 @@
 import React, {createContext, useContext} from 'react';
+import {useTranslation} from 'react-i18next';
 
 import {LoginContextType} from '../../types/LoginContext';
 import {DefaultProviderPropsType} from '../../types/DefaultProvider';
@@ -12,11 +13,15 @@ export const useLogin = () => useContext(LoginContext);
 
 export const LoginProvider: React.FC<DefaultProviderPropsType> = props => {
   const {phone, setPhone} = usePhone();
-  const alert = useAlert();
+  const Alert = useAlert();
+  const {t} = useTranslation();
 
   const handleLoginWithPhoneNumber: () => Promise<void> = async () => {
     if (phone === '') {
-      alert?.onOpen();
+      Alert?.alert({
+        title: t('Invalid phone number'),
+        description: t('Please check your phone number again'),
+      });
     }
 
     loginWithPhone(phone);

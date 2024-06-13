@@ -1,3 +1,5 @@
+import {AlertDataType} from '../Alert';
+
 export type AlertContextType = {
-  onOpen: () => void;
+  alert: (data: AlertDataType) => void;
 };

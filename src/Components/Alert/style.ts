@@ -3,6 +3,7 @@ import {StyleSheet} from 'react-native';
 import {AlertStyleType} from '../../types/Alert';
 import {Color} from '../../Constant/Color';
 import {Dimension} from '../../Constant/Dimension';
+import {Font} from '../../Constant/Font';
 
 export const styles: AlertStyleType = StyleSheet.create<AlertStyleType>({
   container: {
@@ -22,5 +23,19 @@ export const styles: AlertStyleType = StyleSheet.create<AlertStyleType>({
     width: Dimension.width * 0.9,
     padding: Dimension.width / 24,
     backgroundColor: Color.white,
+    borderRadius: 8,
+    gap: Dimension.width / 60,
+  },
+  title: {
+    fontSize: Dimension.width / 20,
+    color: Color.black,
+    fontFamily: `${Font}Medium`,
+    alignSelf: 'center',
+  },
+  description: {
+    fontSize: Dimension.width / 24,
+    color: Color.black,
+    fontFamily: `${Font}Regular`,
+    alignSelf: 'center',
   },
 });

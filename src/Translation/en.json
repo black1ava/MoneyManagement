@@ -2,5 +2,8 @@
   "Login": "Login",
   "Please input your phone number": "Please input your number",
   "Login with phone number": "Login with phone number",
-  "Choose your language": "Choose your language"
+  "Choose your language": "Choose your language",
+  "Invalid phone number": "Invalid phone number",
+  "Please check your phone number again": "Please check your phone number again",
+  "Okay": "Okay"
 }

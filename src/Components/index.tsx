@@ -7,6 +7,7 @@ import LanguageContent from './LanguageContent';
 import Button from './Button';
 import LanguageItem from './LanguageItem';
 import Alert from './Alert';
+import AlertPrimary from './AlertAction';
 
 export default {
   Container,
@@ -18,4 +19,5 @@ export default {
   Button,
   LanguageItem,
   Alert,
+  AlertPrimary,
 };
