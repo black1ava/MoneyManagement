@@ -1,4 +1,4 @@
-import {LanguageDataType} from '../../types/Language/indext';
+import {LanguageDataType} from '../../types/Language';
 
 export const LANGUAGE_DATA: Array<LanguageDataType> = [
   {

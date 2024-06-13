@@ -4,8 +4,10 @@ import BottomSheet, {
   BottomSheetBackdrop,
   BottomSheetBackdropProps,
 } from '@gorhom/bottom-sheet';
+import {BlurView} from '@react-native-community/blur';
 
 import {CustomBottomSheetMethodType} from '../../types/CustomBottomSheet';
+import {styles} from './styles';
 
 type CustomBottomSheet = CustomBottomSheetMethodType;
 
@@ -24,8 +26,14 @@ const CustomBottomSheet = React.memo(
         <BottomSheetBackdrop
           {...backdropProps}
           appearsOnIndex={0}
-          disappearsOnIndex={-1}
-        />
+          disappearsOnIndex={-1}>
+          <BlurView
+            style={styles.blurView}
+            blurType="dark"
+            blurAmount={10}
+            reducedTransparencyFallbackColor="black"
+          />
+        </BottomSheetBackdrop>
       );
 
       useImperativeHandle(ref, () => ({

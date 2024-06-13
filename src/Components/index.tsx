@@ -5,6 +5,8 @@ import Language from './Language';
 import CustomBottomSheet from './CustomBottomSheet';
 import LanguageContent from './LanguageContent';
 import Button from './Button';
+import LanguageItem from './LanguageItem';
+import Alert from './Alert';
 
 export default {
   Container,
@@ -14,4 +16,6 @@ export default {
   CustomBottomSheet,
   LanguageContent,
   Button,
+  LanguageItem,
+  Alert,
 };

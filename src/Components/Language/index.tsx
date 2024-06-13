@@ -11,12 +11,15 @@ const ICON_SIZE: number = Dimension.width / 15;
 
 const Language: React.FC = () => {
   const language = useLanguage();
+
+  const isKhmer = language?.language === 'kh';
+
   return (
     <TouchableOpacity
       style={styles.container}
       activeOpacity={0.5}
       onPress={language?.onOpen}>
-      <Flag name="Kh" width={ICON_SIZE} />
+      <Flag name={isKhmer ? 'Kh' : 'En'} width={ICON_SIZE} />
       <AntDesign name="caretdown" size={Dimension.width / 40} />
     </TouchableOpacity>
   );

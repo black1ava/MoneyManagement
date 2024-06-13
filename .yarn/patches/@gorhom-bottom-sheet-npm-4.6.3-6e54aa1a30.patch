@@ -1,0 +1,22 @@
+diff --git a/src/components/bottomSheetBackdrop/constants.ts b/src/components/bottomSheetBackdrop/constants.ts
+index bf6f23dd8d26c79ae6a5da592cd60602ea298438..1ffd2123adf3f7b43092098e2f0877d936a2c1bc 100644
+--- a/src/components/bottomSheetBackdrop/constants.ts
++++ b/src/components/bottomSheetBackdrop/constants.ts
+@@ -1,4 +1,4 @@
+-const DEFAULT_OPACITY = 0.5;
++const DEFAULT_OPACITY = 1;
+ const DEFAULT_APPEARS_ON_INDEX = 1;
+ const DEFAULT_DISAPPEARS_ON_INDEX = 0;
+ const DEFAULT_ENABLE_TOUCH_THROUGH = false;
+diff --git a/src/components/bottomSheetBackdrop/styles.ts b/src/components/bottomSheetBackdrop/styles.ts
+index 1e1e596c4993d5ab5b6f368a6473c9f429c37d9a..2000ca3d75a50103a04086bb8d4d22c92da55cb1 100644
+--- a/src/components/bottomSheetBackdrop/styles.ts
++++ b/src/components/bottomSheetBackdrop/styles.ts
+@@ -2,6 +2,6 @@ import { StyleSheet } from 'react-native';
+ 
+ export const styles = StyleSheet.create({
+   container: {
+-    backgroundColor: 'black',
++    // backgroundColor: 'black',
+   },
+ });

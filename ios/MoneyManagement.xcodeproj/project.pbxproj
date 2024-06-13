@@ -8,27 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MoneyManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoneyManagementTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-MoneyManagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MoneyManagement.a */; };
+		046B2764468C44989CCB0888 /* KantumruyPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90F91752021B46F09194C48A /* KantumruyPro-Italic.ttf */; };
+		0B59FD0F14AA44E2A5D7C456 /* KantumruyPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2A355BD00F24502AF21AE95 /* KantumruyPro-Light.ttf */; };
+		0E8434B2AB2A4EC28CB5192F /* KantumruyPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D47A299BF92C4B8BB0C716DB /* KantumruyPro-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6D3E0210BBBB962F089A90CA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0F64FD6285BDD40866A8B103 /* PrivacyInfo.xcprivacy */; };
-		7699B88040F8A987B510C191 /* libPods-MoneyManagement-MoneyManagementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MoneyManagement-MoneyManagementTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		0E8434B2AB2A4EC28CB5192F /* KantumruyPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D47A299BF92C4B8BB0C716DB /* KantumruyPro-Bold.ttf */; };
-		D37340137F754570969B9231 /* KantumruyPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F884F3DB88E4FEABF074181 /* KantumruyPro-BoldItalic.ttf */; };
-		C52971B0305B4F31972B5B11 /* KantumruyPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6DD443EAC8C4C5781ABFB13 /* KantumruyPro-ExtraLight.ttf */; };
-		7AF7952E4E7244B4B3647931 /* KantumruyPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F341FC83F83F4A4584539E75 /* KantumruyPro-ExtraLightItalic.ttf */; };
-		046B2764468C44989CCB0888 /* KantumruyPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90F91752021B46F09194C48A /* KantumruyPro-Italic.ttf */; };
-		0B59FD0F14AA44E2A5D7C456 /* KantumruyPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2A355BD00F24502AF21AE95 /* KantumruyPro-Light.ttf */; };
 		2A209650388549EAB2944CEF /* KantumruyPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB4A8D568E284124A172A293 /* KantumruyPro-LightItalic.ttf */; };
-		864E5491905647BE86AAD598 /* KantumruyPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1024B6D3E32546108A2E1FDF /* KantumruyPro-Medium.ttf */; };
-		A76435E0A66A477FBE03029B /* KantumruyPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86EA3788EDA141E5A4B1D507 /* KantumruyPro-MediumItalic.ttf */; };
-		E91FA5D35AFA4FD899C9CED2 /* KantumruyPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2EC4B6555140019ECD1B9F /* KantumruyPro-Regular.ttf */; };
-		98D044A01AF949B0883C8834 /* KantumruyPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A2E2CDCC74D3981E94E4C /* KantumruyPro-SemiBold.ttf */; };
-		D92D09FA81D14E259CA4A9D5 /* KantumruyPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58D1E5FBA4C54C35A3363424 /* KantumruyPro-SemiBoldItalic.ttf */; };
 		43104A34053D4F1EB9DA80E2 /* KantumruyPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A369C6F1245E430790C51C77 /* KantumruyPro-Thin.ttf */; };
+		4D765D0CB1333320E33E8861 /* Pods_MoneyManagement_MoneyManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F6EDCF66FE1C590E93CA8E /* Pods_MoneyManagement_MoneyManagementTests.framework */; };
+		6D3E0210BBBB962F089A90CA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0F64FD6285BDD40866A8B103 /* PrivacyInfo.xcprivacy */; };
+		779F4ED5B50279587F31C3F7 /* Pods_MoneyManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45FAA8A8E39379F9CB9193C /* Pods_MoneyManagement.framework */; };
+		7AF7952E4E7244B4B3647931 /* KantumruyPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F341FC83F83F4A4584539E75 /* KantumruyPro-ExtraLightItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		864E5491905647BE86AAD598 /* KantumruyPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1024B6D3E32546108A2E1FDF /* KantumruyPro-Medium.ttf */; };
+		98D044A01AF949B0883C8834 /* KantumruyPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A2E2CDCC74D3981E94E4C /* KantumruyPro-SemiBold.ttf */; };
+		9CAD787A2C17003500478D66 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78662C17003500478D66 /* AntDesign.ttf */; };
+		9CAD787B2C17003500478D66 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78672C17003500478D66 /* Entypo.ttf */; };
+		9CAD787C2C17003500478D66 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78682C17003500478D66 /* EvilIcons.ttf */; };
+		9CAD787D2C17003500478D66 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78692C17003500478D66 /* Feather.ttf */; };
+		9CAD787E2C17003500478D66 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD786A2C17003500478D66 /* FontAwesome.ttf */; };
+		9CAD787F2C17003500478D66 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD786B2C17003500478D66 /* FontAwesome5_Brands.ttf */; };
+		9CAD78802C17003500478D66 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD786C2C17003500478D66 /* FontAwesome5_Regular.ttf */; };
+		9CAD78812C17003500478D66 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD786D2C17003500478D66 /* FontAwesome5_Solid.ttf */; };
+		9CAD78822C17003500478D66 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD786E2C17003500478D66 /* FontAwesome6_Brands.ttf */; };
+		9CAD78832C17003500478D66 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD786F2C17003500478D66 /* FontAwesome6_Regular.ttf */; };
+		9CAD78842C17003500478D66 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78702C17003500478D66 /* FontAwesome6_Solid.ttf */; };
+		9CAD78852C17003500478D66 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78712C17003500478D66 /* Fontisto.ttf */; };
+		9CAD78862C17003500478D66 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78722C17003500478D66 /* Foundation.ttf */; };
+		9CAD78872C17003500478D66 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78732C17003500478D66 /* Ionicons.ttf */; };
+		9CAD78882C17003500478D66 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78742C17003500478D66 /* MaterialCommunityIcons.ttf */; };
+		9CAD78892C17003500478D66 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78752C17003500478D66 /* MaterialIcons.ttf */; };
+		9CAD788A2C17003500478D66 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78762C17003500478D66 /* Octicons.ttf */; };
+		9CAD788B2C17003500478D66 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78772C17003500478D66 /* SimpleLineIcons.ttf */; };
+		9CAD788C2C17003500478D66 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD78782C17003500478D66 /* Zocial.ttf */; };
+		9CC705252C1702A300A02A3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CC705242C1702A300A02A3D /* GoogleService-Info.plist */; };
+		A76435E0A66A477FBE03029B /* KantumruyPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86EA3788EDA141E5A4B1D507 /* KantumruyPro-MediumItalic.ttf */; };
 		C215CAC159DF45D7BDE5E3BF /* KantumruyPro-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14646DF73D2B4F8786468B63 /* KantumruyPro-ThinItalic.ttf */; };
+		C52971B0305B4F31972B5B11 /* KantumruyPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6DD443EAC8C4C5781ABFB13 /* KantumruyPro-ExtraLight.ttf */; };
+		D37340137F754570969B9231 /* KantumruyPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F884F3DB88E4FEABF074181 /* KantumruyPro-BoldItalic.ttf */; };
+		D92D09FA81D14E259CA4A9D5 /* KantumruyPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58D1E5FBA4C54C35A3363424 /* KantumruyPro-SemiBoldItalic.ttf */; };
+		E91FA5D35AFA4FD899C9CED2 /* KantumruyPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2EC4B6555140019ECD1B9F /* KantumruyPro-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +65,8 @@
 		00E356EE1AD99517003FC87E /* MoneyManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MoneyManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyManagementTests.m; sourceTree = "<group>"; };
-		0F64FD6285BDD40866A8B103 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = MoneyManagement/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0F64FD6285BDD40866A8B103 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = MoneyManagement/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1024B6D3E32546108A2E1FDF /* KantumruyPro-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Medium.ttf"; path = "../assets/fonts/KantumruyPro-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MoneyManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MoneyManagement/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MoneyManagement/AppDelegate.mm; sourceTree = "<group>"; };
@@ -53,28 +74,47 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MoneyManagement/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MoneyManagement/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = MoneyManagement/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MoneyManagement-MoneyManagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyManagement-MoneyManagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14646DF73D2B4F8786468B63 /* KantumruyPro-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-ThinItalic.ttf"; path = "../assets/fonts/KantumruyPro-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2E4A2E2CDCC74D3981E94E4C /* KantumruyPro-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-SemiBold.ttf"; path = "../assets/fonts/KantumruyPro-SemiBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-MoneyManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManagement.debug.xcconfig"; path = "Target Support Files/Pods-MoneyManagement/Pods-MoneyManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		3F2EC4B6555140019ECD1B9F /* KantumruyPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Regular.ttf"; path = "../assets/fonts/KantumruyPro-Regular.ttf"; sourceTree = "<group>"; };
+		4F884F3DB88E4FEABF074181 /* KantumruyPro-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-BoldItalic.ttf"; path = "../assets/fonts/KantumruyPro-BoldItalic.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MoneyManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManagement.release.xcconfig"; path = "Target Support Files/Pods-MoneyManagement/Pods-MoneyManagement.release.xcconfig"; sourceTree = "<group>"; };
+		58D1E5FBA4C54C35A3363424 /* KantumruyPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-SemiBoldItalic.ttf"; path = "../assets/fonts/KantumruyPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MoneyManagement-MoneyManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManagement-MoneyManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyManagement-MoneyManagementTests/Pods-MoneyManagement-MoneyManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-MoneyManagement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyManagement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MoneyManagement/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86EA3788EDA141E5A4B1D507 /* KantumruyPro-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-MediumItalic.ttf"; path = "../assets/fonts/KantumruyPro-MediumItalic.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MoneyManagement-MoneyManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManagement-MoneyManagementTests.release.xcconfig"; path = "Target Support Files/Pods-MoneyManagement-MoneyManagementTests/Pods-MoneyManagement-MoneyManagementTests.release.xcconfig"; sourceTree = "<group>"; };
+		90F91752021B46F09194C48A /* KantumruyPro-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Italic.ttf"; path = "../assets/fonts/KantumruyPro-Italic.ttf"; sourceTree = "<group>"; };
+		9CAD78662C17003500478D66 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		9CAD78672C17003500478D66 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		9CAD78682C17003500478D66 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		9CAD78692C17003500478D66 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		9CAD786A2C17003500478D66 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		9CAD786B2C17003500478D66 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		9CAD786C2C17003500478D66 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		9CAD786D2C17003500478D66 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		9CAD786E2C17003500478D66 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		9CAD786F2C17003500478D66 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		9CAD78702C17003500478D66 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		9CAD78712C17003500478D66 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		9CAD78722C17003500478D66 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		9CAD78732C17003500478D66 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		9CAD78742C17003500478D66 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		9CAD78752C17003500478D66 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		9CAD78762C17003500478D66 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		9CAD78772C17003500478D66 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		9CAD78782C17003500478D66 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		9CC705242C1702A300A02A3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "MoneyManagement/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A369C6F1245E430790C51C77 /* KantumruyPro-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Thin.ttf"; path = "../assets/fonts/KantumruyPro-Thin.ttf"; sourceTree = "<group>"; };
+		AB4A8D568E284124A172A293 /* KantumruyPro-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-LightItalic.ttf"; path = "../assets/fonts/KantumruyPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		C45FAA8A8E39379F9CB9193C /* Pods_MoneyManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F6EDCF66FE1C590E93CA8E /* Pods_MoneyManagement_MoneyManagementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyManagement_MoneyManagementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A355BD00F24502AF21AE95 /* KantumruyPro-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Light.ttf"; path = "../assets/fonts/KantumruyPro-Light.ttf"; sourceTree = "<group>"; };
+		D47A299BF92C4B8BB0C716DB /* KantumruyPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Bold.ttf"; path = "../assets/fonts/KantumruyPro-Bold.ttf"; sourceTree = "<group>"; };
+		E6DD443EAC8C4C5781ABFB13 /* KantumruyPro-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-ExtraLight.ttf"; path = "../assets/fonts/KantumruyPro-ExtraLight.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		D47A299BF92C4B8BB0C716DB /* KantumruyPro-Bold.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Bold.ttf"; path = "../assets/fonts/KantumruyPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4F884F3DB88E4FEABF074181 /* KantumruyPro-BoldItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-BoldItalic.ttf"; path = "../assets/fonts/KantumruyPro-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E6DD443EAC8C4C5781ABFB13 /* KantumruyPro-ExtraLight.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-ExtraLight.ttf"; path = "../assets/fonts/KantumruyPro-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F341FC83F83F4A4584539E75 /* KantumruyPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-ExtraLightItalic.ttf"; path = "../assets/fonts/KantumruyPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		90F91752021B46F09194C48A /* KantumruyPro-Italic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Italic.ttf"; path = "../assets/fonts/KantumruyPro-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D2A355BD00F24502AF21AE95 /* KantumruyPro-Light.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Light.ttf"; path = "../assets/fonts/KantumruyPro-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AB4A8D568E284124A172A293 /* KantumruyPro-LightItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-LightItalic.ttf"; path = "../assets/fonts/KantumruyPro-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1024B6D3E32546108A2E1FDF /* KantumruyPro-Medium.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Medium.ttf"; path = "../assets/fonts/KantumruyPro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		86EA3788EDA141E5A4B1D507 /* KantumruyPro-MediumItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-MediumItalic.ttf"; path = "../assets/fonts/KantumruyPro-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3F2EC4B6555140019ECD1B9F /* KantumruyPro-Regular.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Regular.ttf"; path = "../assets/fonts/KantumruyPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2E4A2E2CDCC74D3981E94E4C /* KantumruyPro-SemiBold.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-SemiBold.ttf"; path = "../assets/fonts/KantumruyPro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		58D1E5FBA4C54C35A3363424 /* KantumruyPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-SemiBoldItalic.ttf"; path = "../assets/fonts/KantumruyPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A369C6F1245E430790C51C77 /* KantumruyPro-Thin.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Thin.ttf"; path = "../assets/fonts/KantumruyPro-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		14646DF73D2B4F8786468B63 /* KantumruyPro-ThinItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-ThinItalic.ttf"; path = "../assets/fonts/KantumruyPro-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F341FC83F83F4A4584539E75 /* KantumruyPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-ExtraLightItalic.ttf"; path = "../assets/fonts/KantumruyPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-MoneyManagement-MoneyManagementTests.a in Frameworks */,
+				4D765D0CB1333320E33E8861 /* Pods_MoneyManagement_MoneyManagementTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-MoneyManagement.a in Frameworks */,
+				779F4ED5B50279587F31C3F7 /* Pods_MoneyManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +157,8 @@
 		13B07FAE1A68108700A75B9A /* MoneyManagement */ = {
 			isa = PBXGroup;
 			children = (
+				9CC705242C1702A300A02A3D /* GoogleService-Info.plist */,
+				9CAD78792C17003500478D66 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -133,8 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-MoneyManagement.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-MoneyManagement-MoneyManagementTests.a */,
+				C45FAA8A8E39379F9CB9193C /* Pods_MoneyManagement.framework */,
+				C7F6EDCF66FE1C590E93CA8E /* Pods_MoneyManagement_MoneyManagementTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,19 +213,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4392A12AC88292D35C810B /* Pods-MoneyManagement.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-MoneyManagement.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-MoneyManagement-MoneyManagementTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-MoneyManagement-MoneyManagementTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		8BDCCC65C7014FCDBA2A5BE0 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				D47A299BF92C4B8BB0C716DB /* KantumruyPro-Bold.ttf */,
 				4F884F3DB88E4FEABF074181 /* KantumruyPro-BoldItalic.ttf */,
@@ -202,7 +233,44 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		9CAD78792C17003500478D66 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9CAD78662C17003500478D66 /* AntDesign.ttf */,
+				9CAD78672C17003500478D66 /* Entypo.ttf */,
+				9CAD78682C17003500478D66 /* EvilIcons.ttf */,
+				9CAD78692C17003500478D66 /* Feather.ttf */,
+				9CAD786A2C17003500478D66 /* FontAwesome.ttf */,
+				9CAD786B2C17003500478D66 /* FontAwesome5_Brands.ttf */,
+				9CAD786C2C17003500478D66 /* FontAwesome5_Regular.ttf */,
+				9CAD786D2C17003500478D66 /* FontAwesome5_Solid.ttf */,
+				9CAD786E2C17003500478D66 /* FontAwesome6_Brands.ttf */,
+				9CAD786F2C17003500478D66 /* FontAwesome6_Regular.ttf */,
+				9CAD78702C17003500478D66 /* FontAwesome6_Solid.ttf */,
+				9CAD78712C17003500478D66 /* Fontisto.ttf */,
+				9CAD78722C17003500478D66 /* Foundation.ttf */,
+				9CAD78732C17003500478D66 /* Ionicons.ttf */,
+				9CAD78742C17003500478D66 /* MaterialCommunityIcons.ttf */,
+				9CAD78752C17003500478D66 /* MaterialIcons.ttf */,
+				9CAD78762C17003500478D66 /* Octicons.ttf */,
+				9CAD78772C17003500478D66 /* SimpleLineIcons.ttf */,
+				9CAD78782C17003500478D66 /* Zocial.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-MoneyManagement.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-MoneyManagement.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-MoneyManagement-MoneyManagementTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-MoneyManagement-MoneyManagementTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -239,6 +307,7 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				3380F6FE9E95713343DEA3B0 /* [CP-User] [RNFB] Core Configuration */,
 			);
 			buildRules = (
 			);
@@ -298,21 +367,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				9CAD787E2C17003500478D66 /* FontAwesome.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				6D3E0210BBBB962F089A90CA /* PrivacyInfo.xcprivacy in Resources */,
+				9CAD788C2C17003500478D66 /* Zocial.ttf in Resources */,
 				0E8434B2AB2A4EC28CB5192F /* KantumruyPro-Bold.ttf in Resources */,
+				9CC705252C1702A300A02A3D /* GoogleService-Info.plist in Resources */,
 				D37340137F754570969B9231 /* KantumruyPro-BoldItalic.ttf in Resources */,
+				9CAD78882C17003500478D66 /* MaterialCommunityIcons.ttf in Resources */,
+				9CAD78842C17003500478D66 /* FontAwesome6_Solid.ttf in Resources */,
 				C52971B0305B4F31972B5B11 /* KantumruyPro-ExtraLight.ttf in Resources */,
+				9CAD787B2C17003500478D66 /* Entypo.ttf in Resources */,
+				9CAD787A2C17003500478D66 /* AntDesign.ttf in Resources */,
+				9CAD787D2C17003500478D66 /* Feather.ttf in Resources */,
+				9CAD788B2C17003500478D66 /* SimpleLineIcons.ttf in Resources */,
+				9CAD78812C17003500478D66 /* FontAwesome5_Solid.ttf in Resources */,
 				7AF7952E4E7244B4B3647931 /* KantumruyPro-ExtraLightItalic.ttf in Resources */,
 				046B2764468C44989CCB0888 /* KantumruyPro-Italic.ttf in Resources */,
 				0B59FD0F14AA44E2A5D7C456 /* KantumruyPro-Light.ttf in Resources */,
+				9CAD78832C17003500478D66 /* FontAwesome6_Regular.ttf in Resources */,
+				9CAD78892C17003500478D66 /* MaterialIcons.ttf in Resources */,
+				9CAD78872C17003500478D66 /* Ionicons.ttf in Resources */,
 				2A209650388549EAB2944CEF /* KantumruyPro-LightItalic.ttf in Resources */,
 				864E5491905647BE86AAD598 /* KantumruyPro-Medium.ttf in Resources */,
+				9CAD787C2C17003500478D66 /* EvilIcons.ttf in Resources */,
+				9CAD788A2C17003500478D66 /* Octicons.ttf in Resources */,
+				9CAD78852C17003500478D66 /* Fontisto.ttf in Resources */,
 				A76435E0A66A477FBE03029B /* KantumruyPro-MediumItalic.ttf in Resources */,
+				9CAD78862C17003500478D66 /* Foundation.ttf in Resources */,
+				9CAD787F2C17003500478D66 /* FontAwesome5_Brands.ttf in Resources */,
+				9CAD78802C17003500478D66 /* FontAwesome5_Regular.ttf in Resources */,
 				E91FA5D35AFA4FD899C9CED2 /* KantumruyPro-Regular.ttf in Resources */,
 				98D044A01AF949B0883C8834 /* KantumruyPro-SemiBold.ttf in Resources */,
 				D92D09FA81D14E259CA4A9D5 /* KantumruyPro-SemiBoldItalic.ttf in Resources */,
 				43104A34053D4F1EB9DA80E2 /* KantumruyPro-Thin.ttf in Resources */,
+				9CAD78822C17003500478D66 /* FontAwesome6_Brands.ttf in Resources */,
 				C215CAC159DF45D7BDE5E3BF /* KantumruyPro-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +441,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyManagement/Pods-MoneyManagement-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		3380F6FE9E95713343DEA3B0 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n##########################################################################\n##########################################################################\n#\n#  NOTE THAT IF YOU CHANGE THIS FILE YOU MUST RUN pod install AFTERWARDS\n#\n#  This file is installed as an Xcode build script in the project file\n#  by cocoapods, and you will not see your changes until you pod install\n#\n##########################################################################\n##########################################################################\n\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_analytics_storage\n  _ANALYTICS_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_analytics_storage\")\n  if [[ $_ANALYTICS_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_ANALYTICS_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_storage\n  _ANALYTICS_AD_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_storage\")\n  if [[ $_ANALYTICS_AD_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_user_data\n  _ANALYTICS_AD_USER_DATA=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_user_data\")\n  if [[ $_ANALYTICS_AD_USER_DATA ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_USER_DATA\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_USER_DATA\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -537,6 +639,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D23L36N822;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MoneyManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -549,7 +652,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moneymanagement;
 				PRODUCT_NAME = MoneyManagement;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -564,6 +667,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D23L36N822;
 				INFOPLIST_FILE = MoneyManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -575,7 +679,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moneymanagement;
 				PRODUCT_NAME = MoneyManagement;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -633,6 +737,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD = "";
 				LDPLUSPLUS = "";
@@ -709,6 +824,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD = "";
 				LDPLUSPLUS = "";

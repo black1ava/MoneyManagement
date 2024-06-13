@@ -1,23 +1,12 @@
 import React from 'react';
-import {ScrollView} from 'react-native';
-import {useTranslation} from 'react-i18next';
 
-import Components from '../../Components';
-import {styles} from './styles';
+import Login from './Login';
+import {LoginProvider} from '../../Context/Login';
 
-const Login: React.FC = () => {
-  const {t} = useTranslation();
+const LoginScreen: React.FC = () => (
+  <LoginProvider>
+    <Login />
+  </LoginProvider>
+);
 
-  return (
-    <Components.Container>
-      <ScrollView contentContainerStyle={styles.container}>
-        <Components.PhoneInput
-          placeholder={t('Please input your phone number')}
-        />
-        <Components.Button title={t('Login with phone number')} />
-      </ScrollView>
-    </Components.Container>
-  );
-};
-
-export default React.memo(Login);
+export default React.memo(LoginScreen);

@@ -13,7 +13,7 @@ const Button: React.FC<ButtonPropsType> = props =>
       color={Color.black}
     />
   ) : (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={props.onPress}>
       <Text style={styles.buttonText}>{props.title}</Text>
     </TouchableOpacity>
   );
