@@ -1743,7 +1743,7 @@ __metadata:
 
 "@gorhom/bottom-sheet@patch:@gorhom/bottom-sheet@npm%3A4.6.3#./.yarn/patches/@gorhom-bottom-sheet-npm-4.6.3-6e54aa1a30.patch::locator=MoneyManagement%40workspace%3A.":
   version: 4.6.3
-  resolution: "@gorhom/bottom-sheet@patch:@gorhom/bottom-sheet@npm%3A4.6.3#./.yarn/patches/@gorhom-bottom-sheet-npm-4.6.3-6e54aa1a30.patch::version=4.6.3&hash=351aaa&locator=MoneyManagement%40workspace%3A."
+  resolution: "@gorhom/bottom-sheet@patch:@gorhom/bottom-sheet@npm%3A4.6.3#./.yarn/patches/@gorhom-bottom-sheet-npm-4.6.3-6e54aa1a30.patch::version=4.6.3&hash=c4305c&locator=MoneyManagement%40workspace%3A."
   dependencies:
     "@gorhom/portal": 1.0.14
     invariant: ^2.2.4
@@ -1759,7 +1759,7 @@ __metadata:
       optional: true
     "@types/react-native":
       optional: true
-  checksum: f576fef33260e7c48ba905158c8fdb8955c523c5a678e3d4eae5e05ec4bb9e6d184e12cd2cfeab9370dcc181b44e0a71367fbbc8d284d7dd39d2e3991cb9546d
+  checksum: 66cf6e42280fe0676f6049aa2bd9a5aec9ee2f3024578905080b95e821786c09c2cb85a1c1ca84276a7ca918584c36ab563e30099b54cf0be77e90e09a1fb5ee
   languageName: node
   linkType: hard
 
@@ -9187,8 +9187,8 @@ __metadata:
   linkType: hard
 
 "react-native-reanimated@npm:^3.11.0":
-  version: 3.11.0
-  resolution: "react-native-reanimated@npm:3.11.0"
+  version: 3.12.0
+  resolution: "react-native-reanimated@npm:3.12.0"
   dependencies:
     "@babel/plugin-transform-arrow-functions": ^7.0.0-0
     "@babel/plugin-transform-nullish-coalescing-operator": ^7.0.0-0
@@ -9202,7 +9202,7 @@ __metadata:
     "@babel/core": ^7.0.0-0
     react: "*"
     react-native: "*"
-  checksum: 5d0c6be5c9b6d933755e50895a1ec903100800a83b7b48fbc6a4242063f0de52a78f5af69d39da4241f6071a4416602f150c3a53e9a97d20880edb3612ffadbd
+  checksum: 14ed9eea5d48b456801847c64a29be5cef2141ac2f5af1f687201083be6dafc925b62235c77bf172b5d9894bc69912677620f96d222341dc451c894211988ab8
   languageName: node
   linkType: hard
 
