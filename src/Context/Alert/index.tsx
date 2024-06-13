@@ -15,7 +15,7 @@ export const AlertProvider: React.FC<DefaultProviderPropsType> = props => {
   return (
     <AlertContext.Provider value={{onOpen: onToggle}}>
       {props.children}
-      <Components.Alert visible={status} onClose={onToggle} />
+      <Components.Alert isVisible={status} onClose={onToggle} />
     </AlertContext.Provider>
   );
 };

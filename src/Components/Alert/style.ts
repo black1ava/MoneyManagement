@@ -7,7 +7,6 @@ import {Dimension} from '../../Constant/Dimension';
 export const styles: AlertStyleType = StyleSheet.create<AlertStyleType>({
   container: {
     flex: 1,
-    backgroundColor: `${Color.black}90`,
     position: 'relative',
     justifyContent: 'center',
     alignItems: 'center',

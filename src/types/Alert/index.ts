@@ -8,4 +8,5 @@ export type AlertStyleType = {
 
 export type AlertPropsType = {
   onClose?: () => void;
+  isVisible?: boolean;
 };

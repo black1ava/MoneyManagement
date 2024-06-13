@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {View, InteractionManager, ViewStyle} from 'react-native';
+import {View, InteractionManager, ViewStyle, StatusBar} from 'react-native';
 import Animated, {
   useSharedValue,
   withTiming,
@@ -9,6 +9,7 @@ import Animated, {
 
 import {ContainerPropsType} from '../../types/Container';
 import {styles} from './styles';
+import {Color} from '../../Constant/Color';
 
 const Container: React.FC<ContainerPropsType> = props => {
   const [loading, setLoading] = useState<boolean>(true);
@@ -32,6 +33,11 @@ const Container: React.FC<ContainerPropsType> = props => {
 
   return (
     <View style={[styles.container, props.style]}>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor="transparent"
+        translucent
+      />
       {!loading && (
         <Animated.View style={[styles.container, containerStyle]}>
           {props.children}
