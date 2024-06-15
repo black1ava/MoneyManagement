@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import {
-  Easing,
   Keyboard,
   KeyboardEventListener,
   KeyboardEventName,
@@ -11,6 +10,7 @@ import Animated, {
   useAnimatedStyle,
   useSharedValue,
   withTiming,
+  Easing,
 } from 'react-native-reanimated';
 
 import {Dimension} from '../../Constant/Dimension';
@@ -21,7 +21,7 @@ const KeyboardSpacing: React.FC = () => {
   const updateKeyboardSpacing: KeyboardEventListener = event => {
     const height = Dimension.height - event.endCoordinates.screenY;
     keyboardHeight.value = withTiming(height, {
-      duration: 300,
+      duration: 250,
       easing: Easing.linear,
     });
   };
@@ -35,7 +35,7 @@ const KeyboardSpacing: React.FC = () => {
 
   useEffect(() => {
     const updateKeyboadSpacingListener: KeyboardEventName =
-      Platform.OS === 'ios' ? 'keyboardWillShow' : 'keyboardDidHide';
+      Platform.OS === 'ios' ? 'keyboardWillShow' : 'keyboardDidShow';
     const resetKeyboardSpacingListener: KeyboardEventName =
       Platform.OS === 'ios' ? 'keyboardWillHide' : 'keyboardDidHide';
 

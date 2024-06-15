@@ -8,6 +8,7 @@ import Button from './Button';
 import LanguageItem from './LanguageItem';
 import Alert from './Alert';
 import AlertPrimary from './AlertAction';
+import KeyboardSpacing from './KeyboardSpacing';
 
 export default {
   Container,
@@ -20,4 +21,5 @@ export default {
   LanguageItem,
   Alert,
   AlertPrimary,
+  KeyboardSpacing,
 };

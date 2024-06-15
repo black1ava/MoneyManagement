@@ -23,6 +23,7 @@ const Login: React.FC = () => {
           title={t('Login with phone number')}
           onPress={login?.onLoginWithPhoneNumber}
         />
+        <Components.KeyboardSpacing />
       </ScrollView>
     </Components.Container>
   );

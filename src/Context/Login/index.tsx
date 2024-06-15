@@ -6,6 +6,8 @@ import {DefaultProviderPropsType} from '../../types/DefaultProvider';
 import {loginWithPhone} from '../../Services/loginWithPhone';
 import {usePhone} from '../../Hook/usePhone';
 import {useAlert} from '../Alert';
+import {validatePhoneNumber} from '../../Utilities/ValidatePhoneNumber';
+import {phoneFormatted} from '../../Utilities/PhoneFormatted';
 
 const LoginContext = createContext<LoginContextType | null>(null);
 
@@ -17,7 +19,9 @@ export const LoginProvider: React.FC<DefaultProviderPropsType> = props => {
   const {t} = useTranslation();
 
   const handleLoginWithPhoneNumber: () => Promise<void> = async () => {
-    if (phone === '') {
+    const validPhoneNumber = validatePhoneNumber(phoneFormatted(phone));
+
+    if (phone === '' || !validPhoneNumber) {
       Alert?.alert({
         title: t('Invalid phone number'),
         description: t('Please check your phone number again'),
