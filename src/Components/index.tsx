@@ -9,6 +9,7 @@ import LanguageItem from './LanguageItem';
 import Alert from './Alert';
 import AlertPrimary from './AlertAction';
 import KeyboardSpacing from './KeyboardSpacing';
+import ConfirmationField from './ConfirmationField';
 
 export default {
   Container,
@@ -22,4 +23,5 @@ export default {
   Alert,
   AlertPrimary,
   KeyboardSpacing,
+  ConfirmationField,
 };

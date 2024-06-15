@@ -7,13 +7,12 @@ import {Color} from '../../Constant/Color';
 
 const Button: React.FC<ButtonPropsType> = props =>
   props.loading ? (
-    <ActivityIndicator
-      style={styles.loading}
-      size="large"
-      color={Color.black}
-    />
+    <ActivityIndicator style={styles.loading} color={Color.black} />
   ) : (
-    <TouchableOpacity style={styles.container} onPress={props.onPress}>
+    <TouchableOpacity
+      style={styles.container}
+      onPress={props.onPress}
+      activeOpacity={0.8}>
       <Text style={styles.buttonText}>{props.title}</Text>
     </TouchableOpacity>
   );

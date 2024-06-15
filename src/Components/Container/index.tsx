@@ -32,14 +32,14 @@ const Container: React.FC<ContainerPropsType> = props => {
   }));
 
   return (
-    <View style={[styles.container, props.style]}>
+    <View style={styles.container}>
       <StatusBar
         barStyle="dark-content"
         backgroundColor="transparent"
         translucent
       />
       {!loading && (
-        <Animated.View style={[styles.container, containerStyle]}>
+        <Animated.View style={[styles.container, containerStyle, props.style]}>
           {props.children}
         </Animated.View>
       )}

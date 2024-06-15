@@ -3,7 +3,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {useTranslation} from 'react-i18next';
 
 import {AuthNavigationType} from '../../types/AuthNavigation';
-import {LoginScreen} from '../../Screen';
+import {LoginScreen, OtpScreen} from '../../Screen';
 import {Font} from '../../Constant/Font';
 import Components from '../../Components';
 
@@ -31,6 +31,7 @@ const AuthNavigation: React.FC = () => {
         component={LoginScreen}
         options={{title: t('Login')}}
       />
+      <Stack.Screen name="Otp" component={OtpScreen} />
     </Stack.Navigator>
   );
 };

@@ -16,7 +16,7 @@ class MainActivity : ReactActivity() {
   override fun getMainComponentName(): String = "MoneyManagement"
 
   override fun onCreate(savedInstanceState: Bundle?) {
-    SplashScreen.show(this)
+    SplashScreen.show(this, R.style.SplashScreenTheme, true);
     super.onCreate(null)
   }
 

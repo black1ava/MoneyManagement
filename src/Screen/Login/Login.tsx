@@ -4,12 +4,25 @@ import {useTranslation} from 'react-i18next';
 
 import Components from '../../Components';
 import {styles} from './styles';
-import {useAlert} from '../../Context/Alert';
 import {useLogin} from '../../Context/Login';
+import {useLoading} from '../../Hook/useLoading';
 
 const Login: React.FC = () => {
   const {t} = useTranslation();
   const login = useLogin();
+  const phoneLoginLoading = useLoading();
+
+  const handleLoginWithPhonePress: () => Promise<void> = async () => {
+    phoneLoginLoading.onLoadingToggle();
+
+    try {
+      await login?.onLoginWithPhoneNumber();
+    } catch (error) {
+      console.error('error', error);
+    } finally {
+      phoneLoginLoading.onLoadingToggle();
+    }
+  };
 
   return (
     <Components.Container>
@@ -21,7 +34,8 @@ const Login: React.FC = () => {
         />
         <Components.Button
           title={t('Login with phone number')}
-          onPress={login?.onLoginWithPhoneNumber}
+          onPress={handleLoginWithPhonePress}
+          loading={phoneLoginLoading.loading}
         />
         <Components.KeyboardSpacing />
       </ScrollView>

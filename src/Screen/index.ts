@@ -1,3 +1,4 @@
 import LoginScreen from './Login';
+import OtpScreen from './Otp';
 
-export {LoginScreen};
+export {LoginScreen, OtpScreen};
