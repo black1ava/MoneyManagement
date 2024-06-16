@@ -15,4 +15,8 @@ export const styles: ConfirmationFieldStyleType =
     list: {
       flexDirection: 'column',
     },
+    input: {
+      position: 'absolute',
+      bottom: -Dimension.height,
+    },
   });

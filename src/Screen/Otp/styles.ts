@@ -9,6 +9,8 @@ export const styles: OtpStyleType = StyleSheet.create<OtpStyleType>({
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: Dimension.width / 24,
+    flex: 1,
+    gap: Dimension.width / 24,
   },
   text: {
     fontFamily: `${Font}Regular`,

@@ -1,5 +1,10 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {
+  Text,
+  TouchableWithoutFeedback,
+  Keyboard,
+  ScrollView,
+} from 'react-native';
 import {useRoute, RouteProp} from '@react-navigation/native';
 import {useTranslation} from 'react-i18next';
 
@@ -13,11 +18,14 @@ const Otp: React.FC = () => {
 
   return (
     <Components.Container style={styles.container}>
-      <Text style={styles.text}>
-        {t('We have sent verification code to')}{' '}
-        <Text style={styles.phone}>{route.params.phone}</Text>
-      </Text>
-      <Components.ConfirmationField />
+      <ScrollView contentContainerStyle={styles.container}>
+        <Text style={styles.text}>
+          {t('We have sent verification code to')}{' '}
+          <Text style={styles.phone}>{route.params.phone}</Text>
+        </Text>
+        <Components.ConfirmationField />
+        <Components.KeyboardSpacing />
+      </ScrollView>
     </Components.Container>
   );
 };
